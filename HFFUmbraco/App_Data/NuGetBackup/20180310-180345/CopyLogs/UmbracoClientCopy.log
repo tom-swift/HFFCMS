@@ -1,0 +1,212 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : 10 March 2018 18:03:57
+   Source : C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\
+     Dest : C:\TomGIT\HFFUmbraco\HFFUmbraco\Umbraco_Client\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /IS /IT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\
+	                   7	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\Application\
+	    Same      		   14404	Extensions.js
+	    Same      		    2417	HistoryManager.js
+	    Same      		     839	NamespaceManager.js
+	    Same      		   18827	UmbracoApplicationActions.js
+	    Same      		   12855	UmbracoClientManager.js
+	    Same      		     374	UmbracoUtils.js
+	    Same      		    2060	UrlEncoder.js
+	                  12	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\Application\JQuery\
+	    Same      		    2057	jquery-fieldselection.js
+	    Same      		   30336	jquery.autocomplete.js
+	    Same      		    5941	jquery.ba-bbq.min.js
+	    Same      		    4344	jquery.cookie.js
+	    Same      		    3178	jquery.hotkeys.js
+	    Same      		    6992	jquery.idle-timer.js
+	    Same      		    1304	jquery.metadata.min.js
+	    Same      		     165	jquery.noconflict-invoke.js
+	    Same      		    2749	jquery.unobtrusive-ajax.min.js
+	    Same      		   21496	jquery.validate.min.js
+	    Same      		    3745	jquery.validate.unobtrusive.min.js
+	    Same      		     255	VerticalAlign.js
+	                   3	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\CodeArea\
+	    Same      		    6126	javascript.js
+	    Same      		     305	styles.css
+	    Same      		    6997	UmbracoEditor.js
+	                   0	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\ContextMenu\
+	                   1	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\ContextMenu\Css\
+	    Same      		    4026	jquery.contextMenu.css
+	                   1	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\ContextMenu\Js\
+	    Same      		   62773	jquery.contextMenu.js
+	                   0	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\Datepicker\
+	                   1	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\Datepicker\Aqua\
+	    Same      		    4884	theme.css
+	                   3	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\DateTimePicker\
+	    Same      		   20315	datetimepicker.css
+	    Same      		   13311	timepicker.js
+	    Same      		    1939	umbDateTimePicker.js
+	                   3	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\DateTimePicker\Images\
+	    Same      		    1110	calSprite.png
+	    Same      		    8673	ui-icons_666666_256x240.png
+	    Same      		    8641	ui-icons_999999_256x240.png
+	                  10	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\Dialogs\
+	    Same      		     362	AssignDomain2.css
+	    Same      		    5351	AssignDomain2.js
+	    Same      		     212	CreateDialog.css
+	    Same      		     316	EditMacro.css
+	    Same      		    7379	EditMacro.js
+	    Same      		     362	PublishDialog.css
+	    Same      		    3481	PublishDialog.js
+	    Same      		    1171	SortDialog.css
+	    Same      		    4713	SortDialog.js
+	    Same      		    6012	UmbracoField.js
+	                   7	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\Editors\
+	    Same      		     486	DirectoryBrowser.css
+	    Same      		     703	EditMacro.css
+	    Same      		    3796	EditStyleSheet.js
+	    Same      		    6259	EditTemplate.js
+	    Same      		   11260	EditView.js
+	    Same      		     161	EditXslt.css
+	    Same      		    2967	EditXslt.js
+	                   0	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\FileUploader\
+	                   1	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\FileUploader\Js\
+	    Same      		   16856	jquery.fileUploader.js
+	                   0	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\FolderBrowser\
+	                   1	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\FolderBrowser\Css\
+	    Same      		    5366	folderbrowser.css
+	                   1	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\FolderBrowser\Js\
+	    Same      		   18665	folderbrowser.js
+	                   1	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\Images\
+	    Same      		   10819	progressbar.gif
+	                   1	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\MacroContainer\
+	    Same      		     666	macroContainer.css
+	                   1	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\MaskedInput\
+	    Same      		    4028	jquery.maskedinput-1.3.min.js
+	                   1	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\Menuicon\
+	    Same      		     571	style.css
+	                   3	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\Menuicon\Images\
+	    Same      		     273	buttonbg.gif
+	    Same      		     273	buttonbgdown.gif
+	    Same      		     851	split.gif
+	                   5	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\Modal\
+	    Same      		   24893	jquery.simplemodal.1.4.1.custom.js
+	    Same      		   20746	modal.js
+	    Same      		     475	modalBackground.gif
+	    Same      		     151	modalGradiant.gif
+	    Same      		    1417	style.css
+	                   2	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\Panel\
+	    Same      		     240	javascript.js
+	    Same      		    2608	style.css
+	                   6	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\Panel\Images\
+	    Same      		      98	panel_bg.gif
+	    Same      		      43	panel_boxfooter_bg.gif
+	    Same      		     162	panel_boxfooter_statusBar_bg.gif
+	    Same      		     164	panel_boxfooter_statusBar_h2_bg.gif
+	    Same      		     194	panel_boxhead_bg.gif
+	    Same      		     193	panel_boxhead_h2_bg.gif
+	                   2	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\Preview\
+	    Same      		    3508	previewModeBadge.png
+	    Same      		     169	umbracoPreview.css
+	                   2	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\ProgressBar\
+	    Same      		     795	javascript.js
+	    Same      		     524	style.css
+	                   3	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\ProgressBar\Images\
+	    Same      		     314	container_left.gif
+	    Same      		     102	container_right.gif
+	    Same      		     113	indicator.gif
+	                   1	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\Propertypane\
+	    Same      		    2000	style.css
+	                   1	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\Propertypane\Images\
+	    Same      		    9038	propertyBackground.gif
+	                   1	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\PunyCode\
+	    Same      		    2803	punycode.min.js
+	                   2	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\Scrollingmenu\
+	    Same      		    2851	javascript.js
+	    Same      		     255	style.css
+	                   3	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\Splitbutton\
+	    Same      		    2245	InsertMacroSplitButton.js
+	    Same      		   18462	jquery.splitbutton.js
+	    Same      		    2773	splitbutton.css
+	                   2	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\Splitbutton\Images\
+	    Same      		     130	splitbutton_downarrow.png
+	    Same      		     149	splitbutton_hover.png
+	                   4	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\Tablesorting\
+	    Same      		   16523	jquery.tablesorter.min.js
+	    Same      		   18249	tableDragAndDrop.js
+	    Same      		   23499	tableFilter.js
+	    Same      		   12838	tableFilterUtill.js
+	                   3	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\Tablesorting\img\
+	    Same      		     830	asc.gif
+	    Same      		      73	bg.gif
+	    Same      		     833	desc.gif
+	                   3	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\Tabview\
+	    Same      		    3721	javascript.js
+	    Same      		    1589	oldstyle.css
+	    Same      		    2633	style.css
+	                   7	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\Tabview\Images\
+	    Same      		     169	background.gif
+	    Same      		      73	bg.gif
+	    Same      		      43	footer_bg.gif
+	    Same      		     162	footer_statusBar_bg.gif
+	    Same      		     164	footer_statusBar_h2_bg.gif
+	    Same      		    1343	left_both.gif
+	    Same      		    3913	right_both.gif
+	                  10	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\Tree\
+	    Same      		    2638	jquery.tree.checkbox.js
+	    Same      		    9637	jquery.tree.contextmenu.js
+	    Same      		  114705	jquery.tree.js
+	    Same      		     548	jquery.tree.metadata.js
+	    Same      		    1642	menuIcons.css
+	    Same      		    1866	NodeDefinition.js
+	    Same      		   12897	sprites.png
+	    Same      		    2597	treeIcons.css
+	    Same      		    3662	UmbracoContext.js
+	    Same      		   55287	UmbracoTree.js
+	                   0	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\Tree\Themes\
+	                   4	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\Tree\Themes\Default\
+	    Same      		      43	dot_for_ie.gif
+	    Same      		    6680	icons.png
+	    Same      		    2435	style.css
+	    Same      		    1844	throbber.gif
+	                  10	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\Tree\Themes\Umbraco\
+	    Same      		    1600	arrows.png
+	    Same      		    2910	check_0.png
+	    Same      		    3197	check_1.png
+	    Same      		    3283	check_2.png
+	    Same      		      54	contextMenuBg.gif
+	    Same      		    6680	icons.png
+	    Same      		     381	newVersion_overlay.png
+	    Same      		     282	protect_overlay.gif
+	    Same      		    5258	style.css
+	    Same      		    1844	throbber.gif
+	                  14	C:\TomGIT\HFFUmbraco\packages\UmbracoCms.7.7.8\UmbracoFiles\Umbraco_Client\Ui\
+	    Same      		   52012	base2.js
+	    Same      		    4482	dd.css
+	    Same      		     138	dd_arrow.gif
+	    Same      		   13659	default.css
+	    Same      		    2324	default.js
+	    Same      		    1423	jquery.alphanumeric.js
+	    Same      		   51648	jquery.dd.js
+	    Same      		   85582	jquery.js
+	    Same      		    3581	jquery.tooltip.min.js
+	    Same      		  240439	jqueryui.js
+	    Same      		    1943	jQueryWresize.js
+	    Same      		    3954	json2.js
+	    Same      		   41412	knockout.js
+	    Same      		    8687	knockout.mapping.js
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :        44         0        44         0         0         0
+   Files :       143       143         0         0         0         0
+   Bytes :    1.26 m    1.26 m         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : 10 March 2018 18:03:57
+

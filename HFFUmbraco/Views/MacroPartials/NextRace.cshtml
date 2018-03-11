@@ -1,0 +1,37 @@
+﻿@using ContentModels = Umbraco.Web.PublishedContentModels;
+@using Umbraco.Web;
+@using System;
+@using System.Globalization;
+@inherits Umbraco.Web.Macros.PartialViewMacroPage
+@{
+     var raceEvent = Model.Content.Site().FirstChild("events").Children<Event>().Where(e=>e.EventEndDate > DateTime.Now).OrderBy(e=>e.EventStartDate).FirstOrDefault();
+}
+<div class="card">
+@if (raceEvent != null)
+{
+   
+
+        <div class="employee-grid">
+           
+                <div style="width:100%;">
+                    <div class="employee-grid__item__image" style="background-image: url('@raceEvent.Photo.Url')"></div>
+                    <div class="employee-grid__item__details">
+                        <h3 class="employee-grid__item__name">@raceEvent.CircuitName.ToString() - @raceEvent.EventName.ToString()</h3>
+                        <p>@raceEvent.EventStartDate.ToString("D", new CultureInfo("en-GB")) - @raceEvent.EventEndDate.ToString("D", new CultureInfo("en-GB"))</p>
+                    </div>
+                </div>
+            
+        </div>
+        }else{
+        
+        <div class="employee-grid">
+                <div>
+                    <div class="employee-grid__item__image" style="background-image: url('')"></div>
+                    <div class="employee-grid__item__details">
+                        <h3 class="employee-grid__item__name">No Races currently confirmed!</h3>
+                    </div>
+                </div>
+            
+        </div>
+    }
+</div>

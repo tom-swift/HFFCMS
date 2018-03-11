@@ -1,0 +1,9 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    var backgroundUrl = CurrentPage.HeaderImage != null ? CurrentPage.HeaderImage.Url : String.Empty;
+}
+<section class="section section--themed section--header section--content-center-bottom" style="background: lightgrey url('@backgroundUrl') no-repeat fixed center;">
+    <div class="section__hero-content">
+        <h1 class="no-air">@Model.Content.GetPropertyValue("PageTitle")</h1>
+    </div>
+</section>

@@ -1,0 +1,41 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.Events>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@using System.Globalization;
+@{
+    Layout = "Master.cshtml";
+}
+@helper SocialLink(string content, string service)
+{
+    if (!string.IsNullOrEmpty(content))
+    {
+        <a class="employee-grid__item__contact-item" href="http://@(service).com/@content">@service</a>
+    }
+}       
+
+@Html.Partial("~/Views/Partials/SectionHeader.cshtml")
+
+<section class="section">
+
+    <div class="container">
+ 
+         <div class="employee-grid">
+            @foreach (ContentModels.Event raceEvent in Model.Content.Children)
+            {
+                <div class="employee-grid__item">
+                    <div class="employee-grid__item__image" style="background-image: url('@raceEvent.Photo.Url')"></div>
+                    <div class="employee-grid__item__details">
+                        <h3 class="employee-grid__item__name">@raceEvent.CircuitName.ToString() - @raceEvent.EventName.ToString()</h3>
+                        <p>@raceEvent.EventStartDate.ToString("D", new CultureInfo("en-GB")) - @raceEvent.EventEndDate.ToString("D", new CultureInfo("en-GB"))</p>
+                        <div class="employee-grid__item__contact">
+                            @SocialLink(raceEvent.FacebookUsername, "Facebook")
+                            @SocialLink(raceEvent.TwitterUsername, "Twitter")
+                            @SocialLink(raceEvent.LinkedInUsername, "LinkedIn")
+                            @SocialLink(raceEvent.InstagramUsername, "Instagram")
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+</section>
